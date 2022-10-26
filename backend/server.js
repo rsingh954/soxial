@@ -13,7 +13,6 @@ const mainRoutes = require("./routes/main");
 const postRoutes = require("./routes/posts");
 const PORT = process.env.PORT || 8000;
 const path = require("path")
-console.log(process.env.PORT)
 // Passport config
 require("./config/passport")(passport);
 
